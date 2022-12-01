@@ -137,9 +137,11 @@ def facturacion():
 
 def informe():
     horarios = ["8:00 am", "10:00 am", "12:00 md", "2:00 pm"]
-    tipos = ["Adultos nacionales:", "Adultos extranjeros:", "Adultos mayores:", "Niños nacionales:"]
+    tipos = ["Adultos nacionales:", "Adultos extranjeros:",
+             "Adultos mayores:", "Niños nacionales:"]
+
     def sumar(horario):
-        print (horarios[horario])
+        print(horarios[horario])
         sum = 0
         nacionales = 0
         extranjeros = 0
@@ -169,7 +171,6 @@ def informe():
     print("Mayor:", horarios[mayor], datos[mayor])
     print("Menor:", horarios[menor], datos[menor])
     input("Enter para continuar... ")
-    
 
 
 def limparpantalla():
